@@ -12,6 +12,19 @@ public final class SongInput {
     private Integer releaseYear;
     private String artist;
 
+    public boolean hasTags(String[] tags) {
+        if (this.tags == null || tags == null) {
+            return false;
+        }
+
+        for (String tag : tags) {
+            if (!this.tags.contains(tag)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public SongInput() {
     }
 

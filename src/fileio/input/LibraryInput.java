@@ -7,7 +7,7 @@ public final class LibraryInput {
     private ArrayList<PodcastInput> podcasts;
     private ArrayList<UserInput> users;
 
-    public LibraryInput() {
+    private LibraryInput() {
     }
 
     public ArrayList<SongInput> getSongs() {

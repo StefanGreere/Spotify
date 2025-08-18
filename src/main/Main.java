@@ -1,10 +1,15 @@
 package main;
 
+import app.context.LibraryAccess;
 import checker.Checker;
 import checker.CheckerConstants;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import commands.Command;
+import commands.CommandFactory;
+import commands.CommandInput;
+import commands.RunCommands;
 import fileio.input.LibraryInput;
 
 import java.io.File;
@@ -71,9 +76,28 @@ public final class Main {
         ObjectMapper objectMapper = new ObjectMapper();
         LibraryInput library = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
 
+        // Load the library into the application context
+        LibraryAccess.load(library);
+
         ArrayNode outputs = objectMapper.createArrayNode();
 
-        // TODO add your implementation
+        // Get the file with the commands
+        File commandsFile = new File(CheckerConstants.TESTS_PATH + filePathInput);
+
+        // Read the commands from the file
+        CommandInput[] inputData = objectMapper.readValue(commandsFile, CommandInput[].class);
+
+        // Create a command factory
+        CommandFactory commandFactory = new RunCommands();
+
+        // Process each command
+        for (CommandInput command : inputData) {
+            // System.out.println("Processing command: " + command.getCommand());
+            Command createdCommand = commandFactory.createCommand(command);
+            if (createdCommand != null) {   // DELETE THIS IN FINAL VERSION !!!
+                createdCommand.execute(outputs);
+            }
+        }
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);
