@@ -1,7 +1,10 @@
 package commands;
 
-import commands.SearchBar.Search;
-import commands.SearchBar.Select;
+import commands.player.Load;
+import commands.player.PlayPause;
+import commands.player.Status;
+import commands.search.bar.Search;
+import commands.search.bar.Select;
 
 public class RunCommands implements CommandFactory {
     /**
@@ -17,6 +20,12 @@ public class RunCommands implements CommandFactory {
                 return new Search(command);
             case "select":
                 return new Select(command);
+            case "load":
+                return new Load(command);
+            case "status":
+                return new Status(command);
+            case "playPause":
+                return new PlayPause(command);
             default:
                 return null;    // DELETE THIS IN FINAL VERSION !!!
         //    throw new IllegalArgumentException("Unknown command type: " + command.getCommand());

@@ -1,4 +1,4 @@
-package commands.SearchBar;
+package commands.search.bar;
 
 import app.context.LibraryAccess;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
 import commands.CommandInput;
+import fileio.input.FileInput;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
@@ -13,18 +14,18 @@ import fileio.input.SongInput;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Search extends Command {
+public final class Search extends Command {
     private String type;
     private Filters filters;
 
     // Static variables to hold results
-    private static List<String> resultsList;
+    private static List<FileInput> resultsList;
 
-    public static List<String> getResultsList() {
+    public static List<FileInput> getResultsList() {
         return resultsList;
     }
 
-    public Search(CommandInput command) {
+    public Search(final CommandInput command) {
         super(command);
         this.type = command.getType();
         this.filters = command.getFilters();
@@ -32,7 +33,7 @@ public class Search extends Command {
     }
 
     @Override
-    public void execute(ArrayNode output) {
+    public void execute(final ArrayNode output) {
         switch (type) {
             case "song" -> {
                 this.searchSong(output);
@@ -47,7 +48,7 @@ public class Search extends Command {
         }
     }
 
-    public void searchSong(ArrayNode output) {
+    public void searchSong(final ArrayNode output) {
         // Access the library
         LibraryInput library = LibraryAccess.getLibrary();
 
@@ -78,7 +79,8 @@ public class Search extends Command {
                 addToResults = false;
             }
 
-            if (filters.getGenre() != null && !song.getGenre().equalsIgnoreCase(filters.getGenre())) {
+            if (filters.getGenre() != null &&
+                                        !song.getGenre().equalsIgnoreCase(filters.getGenre())) {
                 addToResults = false;
             }
 
@@ -100,8 +102,8 @@ public class Search extends Command {
                 }
             }
 
-            if (addToResults == true) {
-                resultsList.add(song.getName());
+            if (addToResults) {
+                resultsList.add(song);
             }
         }
 
@@ -109,7 +111,7 @@ public class Search extends Command {
         createOutput(output, resultsList);
     }
 
-    public void searchPodcast(ArrayNode output) {
+    public void searchPodcast(final ArrayNode output) {
         // Access the library
         LibraryInput library = LibraryAccess.getLibrary();
 
@@ -131,8 +133,8 @@ public class Search extends Command {
                 addToResults = false;
             }
 
-            if (addToResults == true) {
-                resultsList.add(podcast.getName());
+            if (addToResults) {
+                resultsList.add(podcast);
             }
         }
 
@@ -140,20 +142,22 @@ public class Search extends Command {
         createOutput(output, resultsList);
     }
 
-    private void createOutput(ArrayNode output, List<String> resultsList) {
+    private void createOutput(ArrayNode output, List<FileInput> resultsList) {
+        final int SIZE = 5;
+
         // Create output JSON
         ObjectMapper mapper = new ObjectMapper();
         ObjectNode commandOutput = mapper.createObjectNode();
         commandOutput.put("command", getCommand());
         commandOutput.put("user", getUsername());
         commandOutput.put("timestamp", getTimestamp());
-        commandOutput.put("message", "Search returned " + (resultsList.size() > 5 ? 5 : resultsList.size()) + " results");
+        commandOutput.put("message", "Search returned " +
+                (resultsList.size() > SIZE ? SIZE : resultsList.size()) + " results");
 
         ArrayNode resultsArray = mapper.createArrayNode();
 
-        final int SIZE = 5;
         for (int i = 0; i < resultsList.size() && i < SIZE; i++) {
-            resultsArray.add(resultsList.get(i));
+            resultsArray.add(resultsList.get(i).getName());
         }
         commandOutput.set("results", resultsArray);
         output.add(commandOutput);

@@ -2,7 +2,7 @@ package fileio.input;
 
 import java.util.ArrayList;
 
-public final class SongInput {
+public final class SongInput extends FileInput {
     private String name;
     private Integer duration;
     private String album;
@@ -12,7 +12,7 @@ public final class SongInput {
     private Integer releaseYear;
     private String artist;
 
-    public boolean hasTags(String[] tags) {
+    public boolean hasTags(final String[] tags) {
         if (this.tags == null || tags == null) {
             return false;
         }

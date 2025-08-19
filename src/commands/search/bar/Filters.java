@@ -1,10 +1,10 @@
-package commands.SearchBar;
+package commands.search.bar;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
-public class Filters {
+public final class Filters {
     // for songs
     private String name;
     private String album;

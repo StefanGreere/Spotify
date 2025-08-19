@@ -1,6 +1,6 @@
 package commands;
 
-import commands.SearchBar.Filters;
+import commands.search.bar.Filters;
 import lombok.Getter;
 import lombok.Setter;
 

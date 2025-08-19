@@ -2,7 +2,7 @@ package fileio.input;
 
 import java.util.ArrayList;
 
-public final class PodcastInput {
+public final class PodcastInput extends FileInput {
     private String name;
     private String owner;
     private ArrayList<EpisodeInput> episodes;
@@ -32,5 +32,9 @@ public final class PodcastInput {
 
     public void setEpisodes(final ArrayList<EpisodeInput> episodes) {
         this.episodes = episodes;
+    }
+
+    public Integer getDuration() {
+        return null;
     }
 }

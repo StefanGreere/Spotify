@@ -79,6 +79,9 @@ public final class Main {
         // Load the library into the application context
         LibraryAccess.load(library);
 
+        // Clear the active users list
+        app.context.ActiveUsers.clearActiveUsers();
+
         ArrayNode outputs = objectMapper.createArrayNode();
 
         // Get the file with the commands
