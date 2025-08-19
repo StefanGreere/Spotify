@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 5,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,

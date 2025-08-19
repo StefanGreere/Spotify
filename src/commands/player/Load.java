@@ -22,14 +22,8 @@ public final class Load extends Command {
         commandOutput.put("user", getUsername());
         commandOutput.put("timestamp", getTimestamp());
 
-        // Get the active users
-        List<User> activeUsers = app.context.ActiveUsers.getActiveUsers();
-
         // Find the current user based on the username
-        User currentUser = activeUsers.stream()
-                .filter(user -> user.getUsername().equals(getUsername()))
-                .findFirst()
-                .orElse(null);
+        User currentUser = app.context.ActiveUsers.getUserByName(getUsername());
 
         // Check if the user had already loaded a song
         if (currentUser != null && currentUser.getSelectedItem() != null) {

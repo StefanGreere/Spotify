@@ -85,6 +85,11 @@
     "paused" : true
   }
 }, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3215,
@@ -131,30 +136,30 @@
   "user" : "alice22",
   "timestamp" : 3270,
   "stats" : {
-    "name" : "TED Radio Hour",
-    "remainedTime" : null,
+    "name" : "Happier",
+    "remainedTime" : 202,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 3448,
   "stats" : {
-    "name" : "TED Radio Hour",
-    "remainedTime" : null,
+    "name" : "Happier",
+    "remainedTime" : 24,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 4000,
   "stats" : {
-    "name" : "TED Radio Hour",
-    "remainedTime" : null,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true

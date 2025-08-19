@@ -64,6 +64,11 @@
     "paused" : true
   }
 }, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3170,
@@ -84,11 +89,11 @@
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "99 Problems",
+    "remainedTime" : 209,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "select",
@@ -100,23 +105,28 @@
   "user" : "emily30",
   "timestamp" : 3310,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "99 Problems",
+    "remainedTime" : 119,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3400,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "99 Problems",
+    "remainedTime" : 29,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3405,
+  "message" : "A playlist with the same name already exists."
 }, {
   "command" : "status",
   "user" : "emily30",

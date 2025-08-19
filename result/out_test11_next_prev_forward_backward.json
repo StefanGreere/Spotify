@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -67,8 +72,8 @@
   "user" : "bob35",
   "timestamp" : 480,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 178,
+    "name" : "Under Pressure",
+    "remainedTime" : 210,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -88,8 +93,8 @@
   "user" : "bob35",
   "timestamp" : 655,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 173,
+    "name" : "Under Pressure",
+    "remainedTime" : 205,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -99,8 +104,8 @@
   "user" : "bob35",
   "timestamp" : 690,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 138,
+    "name" : "Under Pressure",
+    "remainedTime" : 170,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -110,8 +115,8 @@
   "user" : "bob35",
   "timestamp" : 711,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 117,
+    "name" : "Under Pressure",
+    "remainedTime" : 149,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -121,8 +126,8 @@
   "user" : "bob35",
   "timestamp" : 713,
   "stats" : {
-    "name" : "Start Me Up",
-    "remainedTime" : 115,
+    "name" : "Under Pressure",
+    "remainedTime" : 147,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -148,22 +153,22 @@
   "user" : "bob35",
   "timestamp" : 1049,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "How I Built This",
+    "remainedTime" : null,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 1051,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "How I Built This",
+    "remainedTime" : null,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",
@@ -186,21 +191,21 @@
   "user" : "bob35",
   "timestamp" : 1389,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "How I Built This",
+    "remainedTime" : null,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 1391,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "How I Built This",
+    "remainedTime" : null,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 } ]

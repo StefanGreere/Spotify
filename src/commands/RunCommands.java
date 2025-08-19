@@ -3,6 +3,7 @@ package commands;
 import commands.player.Load;
 import commands.player.PlayPause;
 import commands.player.Status;
+import commands.playlist.CreatePlaylist;
 import commands.search.bar.Search;
 import commands.search.bar.Select;
 
@@ -26,6 +27,8 @@ public class RunCommands implements CommandFactory {
                 return new Status(command);
             case "playPause":
                 return new PlayPause(command);
+            case "createPlaylist":
+                return new CreatePlaylist(command);
             default:
                 return null;    // DELETE THIS IN FINAL VERSION !!!
         //    throw new IllegalArgumentException("Unknown command type: " + command.getCommand());

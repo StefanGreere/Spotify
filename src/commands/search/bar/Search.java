@@ -39,7 +39,7 @@ public final class Search extends Command {
                 this.searchSong(output);
             }
             case "playlist" -> {
-
+                // to be implemented
             }
             case "podcast" -> {
                 this.searchPodcast(output);

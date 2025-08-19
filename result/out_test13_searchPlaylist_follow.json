@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -41,6 +46,11 @@
   "timestamp" : 400,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 470,
@@ -72,6 +82,11 @@
   "user" : "bob35",
   "timestamp" : 600,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 750,
+  "message" : "Playlist created successfully."
 }, {
   "command" : "search",
   "user" : "carol19",

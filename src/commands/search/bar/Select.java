@@ -1,6 +1,7 @@
 package commands.search.bar;
 
 import app.context.ActiveUsers;
+import app.context.AudioFile;
 import app.context.LibraryAccess;
 import app.context.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -41,41 +42,19 @@ public final class Select extends Command {
                 commandOutput.put("message", "Successfully selected " +
                                     selectedItem.getName() + ".");
 
-                // Get the library access
-                LibraryInput library = LibraryAccess.getLibrary();
-
-                // Get the list of users from the library
-                List<UserInput> users = library.getUsers();
-
-                // Find the current user based on the username
-                UserInput currentUser = users.stream()
-                        .filter(user -> user.getUsername().equals(getUsername()))
-                        .findFirst()
-                        .orElse(null);
-
-                // Get the list of active users
-                List<User> activeUsers = ActiveUsers.getActiveUsers();
-
-                if (currentUser != null && !activeUsers.contains(currentUser)) {
+                if (ActiveUsers.getUserByName(getUsername()) == null) {
                     // Set the current user his selected item
-                    User user = new User(currentUser.getUsername(), selectedItem.getName(), selectedItem.getDuration());
+                    User user = new User(getUsername(), selectedItem.getName(), selectedItem.getDuration());
 
                     // Add the current user to the active users list
-                    activeUsers.add(user);
+                    ActiveUsers.addUser(user);
                 } else {
-//                    // Update the selected item for the current user
-//                    User activeUser = activeUsers.stream()
-//                            .filter(user -> user.getUsername().equals(getUsername()))
-//                            .findFirst()
-//                            .orElse(null);
-//
-//                    if (activeUser != null) {
-//                        activeUser.setSelectedItem(selectedItem.getName(), selectedItem.getDuration());
-//                    } else {
-//                        commandOutput.put("message", "User not found in active users.");
-//                        output.add(commandOutput);
-//                        return;
-//                    }
+                    // Find the current user by username
+                    User currentUser = ActiveUsers.getUserByName(getUsername());
+
+                    // Set the selected item for the current user
+                    currentUser.setSelectedItem(new AudioFile(
+                            selectedItem.getName(), selectedItem.getDuration(), false));
                 }
             }
         }

@@ -59,6 +59,11 @@
     "paused" : true
   }
 }, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 1005,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1006,
@@ -153,22 +158,22 @@
   "user" : "alice22",
   "timestamp" : 1035,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Dream Chaser",
+    "remainedTime" : 198,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 1037,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Dream Chaser",
+    "remainedTime" : 196,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",

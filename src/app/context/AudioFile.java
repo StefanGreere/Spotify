@@ -12,6 +12,15 @@ public final class AudioFile {
     private boolean paused;
     private Integer startTime;
 
+    public AudioFile(final String name, final Integer remainedTime, final boolean shuffle) {
+        this.name = name;
+        this.remainedTime = remainedTime;
+        this.repeat = "No Repeat"; // Default value
+        this.shuffle = shuffle;
+        this.paused = false; // Default to not paused
+        this.startTime = 0; // Initialize start time to 0
+    }
+
     /**
      * Method to update the remained time of the audio file.
      *

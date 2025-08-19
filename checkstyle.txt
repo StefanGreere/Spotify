@@ -1,4 +1,13 @@
 Starting audit...
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\ActiveUsers.java:27:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\ActiveUsers.java:37:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\User.java:24:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'getPlaylistByName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'getPlaylistByName' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\User.java:24:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\User.java:33:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'createPlaylist' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'createPlaylist' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\User.java:33:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\player\Load.java:9:8: Unused import - java.util.List. [UnusedImports]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\player\Status.java:10:8: Unused import - java.util.List. [UnusedImports]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\playlist\Playlist.java:13:21: Variable 'files' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Search.java:51:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Search.java:82:44: '&&' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Search.java:114:5: Missing a Javadoc comment. [MissingJavadocMethod]
@@ -7,11 +16,13 @@ Starting audit...
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Search.java:145:65: 'resultsList' hides a field. [HiddenField]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Search.java:146:19: Name 'SIZE' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalFinalVariableName]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Search.java:154:57: '+' should be on a new line. [OperatorWrap]
-[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:41:71: '+' should be on a new line. [OperatorWrap]
-[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:61: Line is longer than 100 characters (found 120). [LineLength]
-[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:65:24: Must have at least one statement. [EmptyBlock]
-[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:73: Line is longer than 100 characters (found 105). [LineLength]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:5:8: Unused import - app.context.LibraryAccess. [UnusedImports]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:13:8: Unused import - fileio.input.LibraryInput. [UnusedImports]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:14:8: Unused import - fileio.input.UserInput. [UnusedImports]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:15:8: Unused import - java.util.List. [UnusedImports]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:42:71: '+' should be on a new line. [OperatorWrap]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\search\bar\Select.java:47: Line is longer than 100 characters (found 108). [LineLength]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\fileio\input\SongInput.java:15:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\fileio\input\SongInput.java:15:43: 'tags' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 25 errors.

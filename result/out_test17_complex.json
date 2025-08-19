@@ -1,4 +1,104 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 100,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 110,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 120,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "david27",
+  "timestamp" : 130,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 140,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "frank21",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "grace25",
+  "timestamp" : 160,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "henry26",
+  "timestamp" : 170,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "irene33",
+  "timestamp" : 180,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "jack29",
+  "timestamp" : 190,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 200,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 210,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "carol19",
+  "timestamp" : 220,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "david27",
+  "timestamp" : 230,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 240,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "frank21",
+  "timestamp" : 250,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "grace25",
+  "timestamp" : 260,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "henry26",
+  "timestamp" : 270,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "irene33",
+  "timestamp" : 280,
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "jack29",
+  "timestamp" : 290,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 300,
@@ -333,7 +433,7 @@
   "command" : "load",
   "user" : "bob35",
   "timestamp" : 810,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -1933,7 +2033,7 @@
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 3310,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -3303,8 +3403,8 @@
   "user" : "alice22",
   "timestamp" : 5500,
   "stats" : {
-    "name" : "Angie",
-    "remainedTime" : 175,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 183,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3314,8 +3414,8 @@
   "user" : "bob35",
   "timestamp" : 5510,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 384,
+    "name" : "Don't",
+    "remainedTime" : 121,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3330,8 +3430,8 @@
   "user" : "carol19",
   "timestamp" : 5520,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3341,8 +3441,8 @@
   "user" : "david27",
   "timestamp" : 5530,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 226,
+    "name" : "Love Story",
+    "remainedTime" : 138,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3352,8 +3452,8 @@
   "user" : "david27",
   "timestamp" : 5530,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 226,
+    "name" : "Love Story",
+    "remainedTime" : 138,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3374,8 +3474,8 @@
   "user" : "frank21",
   "timestamp" : 5550,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 257,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 183,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3385,8 +3485,8 @@
   "user" : "frank21",
   "timestamp" : 5550,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 257,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 183,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3396,8 +3496,8 @@
   "user" : "grace25",
   "timestamp" : 5560,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 134,
+    "name" : "The Man",
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3407,8 +3507,8 @@
   "user" : "henry26",
   "timestamp" : 5570,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 140,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3418,8 +3518,8 @@
   "user" : "irene33",
   "timestamp" : 5580,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 169,
+    "name" : "The Unforgiven",
+    "remainedTime" : 288,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3429,8 +3529,8 @@
   "user" : "irene33",
   "timestamp" : 5580,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 169,
+    "name" : "The Unforgiven",
+    "remainedTime" : 288,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3440,8 +3540,8 @@
   "user" : "jack29",
   "timestamp" : 5590,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 135,
+    "name" : "Maps",
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3451,8 +3551,8 @@
   "user" : "jack29",
   "timestamp" : 5590,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 135,
+    "name" : "Maps",
+    "remainedTime" : 92,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3462,8 +3562,8 @@
   "user" : "alice22",
   "timestamp" : 5600,
   "stats" : {
-    "name" : "Angie",
-    "remainedTime" : 75,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 83,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3473,8 +3573,8 @@
   "user" : "bob35",
   "timestamp" : 5610,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 284,
+    "name" : "Don't",
+    "remainedTime" : 21,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3484,8 +3584,8 @@
   "user" : "carol19",
   "timestamp" : 5620,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3495,8 +3595,8 @@
   "user" : "david27",
   "timestamp" : 5630,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 126,
+    "name" : "Love Story",
+    "remainedTime" : 38,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3517,8 +3617,8 @@
   "user" : "frank21",
   "timestamp" : 5650,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 157,
+    "name" : "Thinking Out Loud",
+    "remainedTime" : 83,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3528,19 +3628,19 @@
   "user" : "grace25",
   "timestamp" : 5660,
   "stats" : {
-    "name" : "Delicate",
-    "remainedTime" : 34,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5670,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 40,
+    "name" : "Gimme Shelter",
+    "remainedTime" : 73,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3550,8 +3650,8 @@
   "user" : "irene33",
   "timestamp" : 5680,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 69,
+    "name" : "The Unforgiven",
+    "remainedTime" : 188,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -3561,22 +3661,22 @@
   "user" : "jack29",
   "timestamp" : 5690,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 35,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "jack29",
   "timestamp" : 5690,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 35,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -3598,25 +3698,25 @@
   "command" : "playPause",
   "user" : "bob35",
   "timestamp" : 5710,
-  "message" : "Playback paused successfully."
+  "message" : "Playback resumed successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5710,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 5720,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3626,11 +3726,11 @@
   "user" : "david27",
   "timestamp" : 5730,
   "stats" : {
-    "name" : "Sad But True",
-    "remainedTime" : 26,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -3648,11 +3748,11 @@
   "user" : "frank21",
   "timestamp" : 5750,
   "stats" : {
-    "name" : "Bohemian Rhapsody",
-    "remainedTime" : 57,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -3691,17 +3791,17 @@
   "command" : "playPause",
   "user" : "irene33",
   "timestamp" : 5780,
-  "message" : "Playback resumed successfully."
+  "message" : "Playback paused successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 5780,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Unforgiven",
+    "remainedTime" : 88,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
@@ -3730,8 +3830,8 @@
   "user" : "bob35",
   "timestamp" : 5810,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3741,8 +3841,8 @@
   "user" : "carol19",
   "timestamp" : 5820,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3818,8 +3918,8 @@
   "user" : "irene33",
   "timestamp" : 5880,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Unforgiven",
+    "remainedTime" : 88,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3851,8 +3951,8 @@
   "user" : "bob35",
   "timestamp" : 5910,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3862,8 +3962,8 @@
   "user" : "carol19",
   "timestamp" : 5920,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3873,8 +3973,8 @@
   "user" : "carol19",
   "timestamp" : 5920,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3950,8 +4050,8 @@
   "user" : "irene33",
   "timestamp" : 5980,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Unforgiven",
+    "remainedTime" : 88,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3983,8 +4083,8 @@
   "user" : "bob35",
   "timestamp" : 6010,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -3994,8 +4094,8 @@
   "user" : "carol19",
   "timestamp" : 6020,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4087,8 +4187,8 @@
   "user" : "irene33",
   "timestamp" : 6080,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Unforgiven",
+    "remainedTime" : 88,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -4130,8 +4230,8 @@
   "user" : "bob35",
   "timestamp" : 6110,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4141,8 +4241,8 @@
   "user" : "carol19",
   "timestamp" : 6120,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4245,8 +4345,8 @@
   "user" : "bob35",
   "timestamp" : 6210,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4256,8 +4356,8 @@
   "user" : "carol19",
   "timestamp" : 6220,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4355,8 +4455,8 @@
   "user" : "bob35",
   "timestamp" : 6310,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4366,8 +4466,8 @@
   "user" : "carol19",
   "timestamp" : 6320,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4492,8 +4592,8 @@
   "user" : "bob35",
   "timestamp" : 6410,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4508,8 +4608,8 @@
   "user" : "carol19",
   "timestamp" : 6420,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 138,
+    "name" : "Shape of You",
+    "remainedTime" : 135,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -4612,8 +4712,8 @@
   "user" : "bob35",
   "timestamp" : 6510,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4623,8 +4723,8 @@
   "user" : "carol19",
   "timestamp" : 6520,
   "stats" : {
-    "name" : "Love Story",
-    "remainedTime" : 38,
+    "name" : "Shape of You",
+    "remainedTime" : 35,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -4733,8 +4833,8 @@
   "user" : "bob35",
   "timestamp" : 6610,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
@@ -4869,8 +4969,8 @@
   "user" : "bob35",
   "timestamp" : 6710,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 184,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -4979,22 +5079,22 @@
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 84,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6810,
   "stats" : {
-    "name" : "Stairway to Heaven",
-    "remainedTime" : 84,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",

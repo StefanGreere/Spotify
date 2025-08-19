@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,
@@ -105,22 +110,22 @@
   "user" : "emily30",
   "timestamp" : 3220,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Daily",
+    "remainedTime" : null,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3920,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "The Daily",
+    "remainedTime" : null,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "search",

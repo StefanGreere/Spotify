@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 3215,
@@ -72,8 +77,8 @@
   "user" : "emily30",
   "timestamp" : 3770,
   "stats" : {
-    "name" : "Shape of You",
-    "remainedTime" : 203,
+    "name" : "The Man",
+    "remainedTime" : 165,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -100,7 +105,7 @@
   "timestamp" : 3970,
   "stats" : {
     "name" : "Shape of You",
-    "remainedTime" : 178,
+    "remainedTime" : 208,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -121,7 +126,7 @@
   "timestamp" : 4170,
   "stats" : {
     "name" : "Shape of You",
-    "remainedTime" : 113,
+    "remainedTime" : 143,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -148,7 +153,7 @@
   "timestamp" : 4370,
   "stats" : {
     "name" : "Shape of You",
-    "remainedTime" : 68,
+    "remainedTime" : 98,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false

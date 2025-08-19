@@ -23,4 +23,20 @@ public final class ActiveUsers {
     public static void clearActiveUsers() {
         activeUsers.clear();
     }
+
+    public static User getUserByName(final String username) {
+        for (User user : activeUsers) {
+            if (user.getUsername().equals(username)) {
+                return user;
+            }
+        }
+
+        return null; // Return null if no user found with the given username
+    }
+
+    public static void addUser(final User user) {
+        if (user != null && !activeUsers.contains(user)) {
+            activeUsers.add(user);
+        }
+    }
 }

@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -109,8 +114,8 @@
   "user" : "bob35",
   "timestamp" : 800,
   "stats" : {
-    "name" : "Nothing Else Matters",
-    "remainedTime" : 329,
+    "name" : "Begin Again",
+    "remainedTime" : 178,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -120,8 +125,8 @@
   "user" : "bob35",
   "timestamp" : 900,
   "stats" : {
-    "name" : "Nothing Else Matters",
-    "remainedTime" : 229,
+    "name" : "Begin Again",
+    "remainedTime" : 78,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
