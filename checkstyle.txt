@@ -13,6 +13,9 @@ Starting audit...
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\User.java:45:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\User.java:50:5: Class 'User' looks like designed for extension (can be subclassed), but the method 'getPlaylistById' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'User' final or making the method 'getPlaylistById' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\app\context\User.java:50:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\player\Like.java:20:5: Class 'Like' looks like designed for extension (can be subclassed), but the method 'execute' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Like' final or making the method 'execute' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\player\Like.java:31:32: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\player\Like.java:34:40: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\player\Status.java:10:8: Unused import - java.util.List. [UnusedImports]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\playlist\AddRemoveInPlaylist.java:19:25: Parameter output should be final. [FinalParameters]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\commands\playlist\AddRemoveInPlaylist.java:38:32: Expression can be simplified. [SimplifyBooleanExpression]
@@ -37,4 +40,4 @@ Starting audit...
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\fileio\input\SongInput.java:15:5: Missing a Javadoc comment. [MissingJavadocMethod]
 [ERROR] C:\Users\Greere\Desktop\Spotify\.\src\fileio\input\SongInput.java:15:43: 'tags' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 37 errors.
+Checkstyle ends with 40 errors.

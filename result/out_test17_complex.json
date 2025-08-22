@@ -4492,6 +4492,11 @@
     "paused" : false
   }
 }, {
+  "command" : "like",
+  "user" : "grace25",
+  "timestamp" : 5560,
+  "message" : "Like registered successfully."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5560,
@@ -4579,6 +4584,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 5620,
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -4722,6 +4732,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 5730,
+  "message" : "Like registered successfully."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 5730,
@@ -4826,6 +4841,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 5810,
+  "message" : "Like registered successfully."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 5810,
@@ -4881,6 +4901,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 5850,
+  "message" : "Like registered successfully."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 5850,
@@ -4913,6 +4938,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "irene33",
+  "timestamp" : 5880,
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -5024,6 +5054,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "grace25",
+  "timestamp" : 5960,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "grace25",
   "timestamp" : 5960,
@@ -5090,6 +5125,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "carol19",
+  "timestamp" : 6020,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "carol19",
   "timestamp" : 6020,
@@ -5111,6 +5151,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 6040,
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -5270,6 +5315,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6150,
@@ -5280,6 +5330,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "grace25",
+  "timestamp" : 6160,
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "grace25",
@@ -5341,6 +5396,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 6210,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 6210,
@@ -5363,6 +5423,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 6230,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "david27",
   "timestamp" : 6230,
@@ -5384,6 +5449,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6250,
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -5555,6 +5625,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "irene33",
+  "timestamp" : 6380,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "irene33",
   "timestamp" : 6380,
@@ -5642,6 +5717,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6450,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "frank21",
   "timestamp" : 6450,
@@ -5707,6 +5787,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 6510,
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -5818,6 +5903,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 6600,
+  "message" : "Like registered successfully."
+}, {
   "command" : "status",
   "user" : "alice22",
   "timestamp" : 6600,
@@ -5828,6 +5918,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 6610,
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -5986,6 +6081,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 6730,
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "david27",
@@ -6163,6 +6263,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "henry26",
+  "timestamp" : 6870,
+  "message" : "Like registered successfully."
+}, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6870,
@@ -6256,6 +6361,11 @@
     "paused" : true
   }
 }, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 6940,
+  "message" : "Unlike registered successfully."
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 6940,
@@ -6299,6 +6409,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "like",
+  "user" : "henry26",
+  "timestamp" : 6970,
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "henry26",

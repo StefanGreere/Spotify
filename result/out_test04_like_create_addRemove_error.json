@@ -83,6 +83,11 @@
   "timestamp" : 72,
   "message" : "Successfully added to playlist."
 }, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 80,
+  "message" : "Like registered successfully."
+}, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 85,
@@ -92,4 +97,9 @@
   "user" : "emily30",
   "timestamp" : 86,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "like",
+  "user" : "emily30",
+  "timestamp" : 90,
+  "message" : "Unlike registered successfully."
 } ]

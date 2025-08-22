@@ -25,6 +25,11 @@
   "timestamp" : 24,
   "message" : "Successfully added to playlist."
 }, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 25,
+  "message" : "Like registered successfully."
+}, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 26,
@@ -46,10 +51,20 @@
   "timestamp" : 40,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 45,
+  "message" : "Like registered successfully."
+}, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 46,
   "message" : "Successfully added to playlist."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 50,
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
@@ -60,6 +75,16 @@
   "user" : "alice22",
   "timestamp" : 52,
   "message" : "Successfully added to playlist."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 55,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "like",
+  "user" : "alice22",
+  "timestamp" : 60,
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "select",
   "user" : "alice22",

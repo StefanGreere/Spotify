@@ -12,6 +12,7 @@ public final class AudioFile {
     private boolean paused;
     private Integer startTime;
     private String type;
+    private boolean like;
 
     public AudioFile(final String name, final Integer remainedTime, final boolean shuffle,
                      final String type) {
@@ -22,6 +23,7 @@ public final class AudioFile {
         this.paused = false; // Default to not paused
         this.startTime = 0; // Initialize start time to 0
         this.type = type; // Song, Podcast, or Episode
+        this.like = false; // Default to not liked
     }
 
     /**
