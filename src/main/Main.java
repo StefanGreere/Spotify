@@ -8,10 +8,9 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import commands.Command;
 import commands.CommandFactory;
-import commands.CommandInput;
+import fileio.input.CommandInput;
 import commands.RunCommands;
 import fileio.input.LibraryInput;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;

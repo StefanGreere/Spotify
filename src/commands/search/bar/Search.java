@@ -5,17 +5,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import commands.CommandInput;
-import fileio.input.FileInput;
-import fileio.input.LibraryInput;
-import fileio.input.PodcastInput;
-import fileio.input.SongInput;
-
+import fileio.input.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public final class Search extends Command {
-    private String type;
+    private static String type;
     private Filters filters;
 
     // Static variables to hold results
@@ -24,6 +19,8 @@ public final class Search extends Command {
     public static List<FileInput> getResultsList() {
         return resultsList;
     }
+
+    public static String getType() { return type; }
 
     public Search(final CommandInput command) {
         super(command);

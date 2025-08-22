@@ -6,6 +6,8 @@ import commands.player.Status;
 import commands.playlist.CreatePlaylist;
 import commands.search.bar.Search;
 import commands.search.bar.Select;
+import fileio.input.CommandInput;
+
 
 public class RunCommands implements CommandFactory {
     /**
@@ -29,6 +31,8 @@ public class RunCommands implements CommandFactory {
                 return new PlayPause(command);
             case "createPlaylist":
                 return new CreatePlaylist(command);
+            case "addRemoveInPlaylist":
+                return new commands.playlist.AddRemoveInPlaylist(command);
             default:
                 return null;    // DELETE THIS IN FINAL VERSION !!!
         //    throw new IllegalArgumentException("Unknown command type: " + command.getCommand());

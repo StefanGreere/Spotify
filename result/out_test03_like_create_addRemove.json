@@ -20,6 +20,16 @@
   "timestamp" : 20,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 24,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 26,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 30,
@@ -35,6 +45,21 @@
   "user" : "alice22",
   "timestamp" : 40,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 46,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 51,
+  "message" : "Successfully removed from playlist."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 52,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "select",
   "user" : "alice22",

@@ -20,6 +20,11 @@
   "timestamp" : 3265,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3270,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 3285,

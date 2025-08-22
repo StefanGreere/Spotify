@@ -2,17 +2,13 @@ package commands.search.bar;
 
 import app.context.ActiveUsers;
 import app.context.AudioFile;
-import app.context.LibraryAccess;
 import app.context.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import commands.CommandInput;
+import fileio.input.CommandInput;
 import fileio.input.FileInput;
-import fileio.input.LibraryInput;
-import fileio.input.UserInput;
-import java.util.List;
 
 public final class Select extends Command {
     private String itemNumber;
@@ -44,7 +40,7 @@ public final class Select extends Command {
 
                 if (ActiveUsers.getUserByName(getUsername()) == null) {
                     // Set the current user his selected item
-                    User user = new User(getUsername(), selectedItem.getName(), selectedItem.getDuration());
+                    User user = new User(getUsername(), selectedItem.getName(), selectedItem.getDuration(), Search.getType());
 
                     // Add the current user to the active users list
                     ActiveUsers.addUser(user);
@@ -53,8 +49,8 @@ public final class Select extends Command {
                     User currentUser = ActiveUsers.getUserByName(getUsername());
 
                     // Set the selected item for the current user
-                    currentUser.setSelectedItem(new AudioFile(
-                            selectedItem.getName(), selectedItem.getDuration(), false));
+                    currentUser.setSelectedItem(new AudioFile(selectedItem.getName(),
+                            selectedItem.getDuration(), false, Search.getType()));
                 }
             }
         }

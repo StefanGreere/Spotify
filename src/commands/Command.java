@@ -1,6 +1,7 @@
 package commands;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import fileio.input.CommandInput;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -11,14 +11,17 @@ public final class AudioFile {
     private boolean shuffle;
     private boolean paused;
     private Integer startTime;
+    private String type;
 
-    public AudioFile(final String name, final Integer remainedTime, final boolean shuffle) {
+    public AudioFile(final String name, final Integer remainedTime, final boolean shuffle,
+                     final String type) {
         this.name = name;
         this.remainedTime = remainedTime;
         this.repeat = "No Repeat"; // Default value
         this.shuffle = shuffle;
         this.paused = false; // Default to not paused
         this.startTime = 0; // Initialize start time to 0
+        this.type = type; // Song, Podcast, or Episode
     }
 
     /**

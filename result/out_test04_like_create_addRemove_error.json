@@ -15,6 +15,11 @@
   "timestamp" : 15,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 20,
+  "message" : "The specified playlist does not exist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 25,
@@ -36,11 +41,21 @@
   "timestamp" : 35,
   "message" : "Playlist created successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 40,
+  "message" : "The loaded source is not a song.podcast"
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 45,
   "message" : "Search returned 3 results",
   "results" : [ "Bohemian Rhapsody", "We Will Rock You", "Radio Ga Ga" ]
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 50,
+  "message" : "The loaded source is not a song.podcast"
 }, {
   "command" : "createPlaylist",
   "user" : "emily30",
@@ -62,6 +77,11 @@
   "user" : "emily30",
   "timestamp" : 71,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 72,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "select",
   "user" : "emily30",

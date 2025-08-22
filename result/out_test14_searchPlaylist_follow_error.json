@@ -20,6 +20,11 @@
   "timestamp" : 200,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "createPlaylist",
   "user" : "bob35",
   "timestamp" : 450,
@@ -41,6 +46,11 @@
   "timestamp" : 500,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 570,
@@ -56,6 +66,11 @@
   "user" : "bob35",
   "timestamp" : 600,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 640,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "createPlaylist",
   "user" : "carol19",
@@ -77,6 +92,11 @@
   "user" : "carol19",
   "timestamp" : 900,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 940,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",

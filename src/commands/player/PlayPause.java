@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import commands.CommandInput;
+import fileio.input.CommandInput;
 
 public final class PlayPause extends Command {
     public PlayPause(final CommandInput command) {

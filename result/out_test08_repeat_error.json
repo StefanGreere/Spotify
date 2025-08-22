@@ -96,6 +96,11 @@
     "paused" : false
   }
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 3290,

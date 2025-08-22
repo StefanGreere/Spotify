@@ -1,4 +1,4 @@
-package commands;
+package fileio.input;
 
 import commands.search.bar.Filters;
 import lombok.Getter;

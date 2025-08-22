@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import commands.Command;
-import commands.CommandInput;
+import fileio.input.CommandInput;
 
 public final class CreatePlaylist extends Command {
     private String playlistName;
@@ -34,7 +34,7 @@ public final class CreatePlaylist extends Command {
 
         if (currentUser == null) {
             // Set the current user his selected item
-            User user = new User(getUsername(), null, null);
+            User user = new User(getUsername(), null, null, null);
 
             // Add the current user to the active users list
             ActiveUsers.addUser(user);

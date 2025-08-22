@@ -113,7 +113,12 @@
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 310,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 315,
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -131,6 +136,11 @@
   "timestamp" : 335,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 350,
@@ -146,6 +156,11 @@
   "user" : "alice22",
   "timestamp" : 360,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 365,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -163,6 +178,11 @@
   "timestamp" : 385,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 390,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 400,
@@ -178,6 +198,11 @@
   "user" : "alice22",
   "timestamp" : 410,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 415,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -195,6 +220,11 @@
   "timestamp" : 435,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 440,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 450,
@@ -210,6 +240,11 @@
   "user" : "alice22",
   "timestamp" : 460,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 465,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -227,6 +262,11 @@
   "timestamp" : 485,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 490,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 500,
@@ -242,6 +282,11 @@
   "user" : "alice22",
   "timestamp" : 510,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 515,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -259,6 +304,11 @@
   "timestamp" : 535,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 550,
@@ -274,6 +324,11 @@
   "user" : "alice22",
   "timestamp" : 560,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 565,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -291,6 +346,11 @@
   "timestamp" : 585,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 590,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 600,
@@ -306,6 +366,11 @@
   "user" : "alice22",
   "timestamp" : 610,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 615,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -323,6 +388,11 @@
   "timestamp" : 635,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 640,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 650,
@@ -338,6 +408,11 @@
   "user" : "alice22",
   "timestamp" : 660,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 665,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -355,6 +430,11 @@
   "timestamp" : 685,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 690,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 700,
@@ -370,6 +450,11 @@
   "user" : "alice22",
   "timestamp" : 710,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 715,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -387,6 +472,11 @@
   "timestamp" : 735,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 740,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 750,
@@ -402,6 +492,11 @@
   "user" : "alice22",
   "timestamp" : 760,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 765,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -419,6 +514,11 @@
   "timestamp" : 785,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 790,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 800,
@@ -434,6 +534,11 @@
   "user" : "bob35",
   "timestamp" : 810,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 815,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -451,6 +556,11 @@
   "timestamp" : 835,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 840,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 850,
@@ -466,6 +576,11 @@
   "user" : "bob35",
   "timestamp" : 860,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 865,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -483,6 +598,11 @@
   "timestamp" : 885,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 890,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 900,
@@ -498,6 +618,11 @@
   "user" : "bob35",
   "timestamp" : 910,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 915,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -515,6 +640,11 @@
   "timestamp" : 935,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 940,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 950,
@@ -530,6 +660,11 @@
   "user" : "bob35",
   "timestamp" : 960,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 965,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -547,6 +682,11 @@
   "timestamp" : 985,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 990,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1000,
@@ -562,6 +702,11 @@
   "user" : "bob35",
   "timestamp" : 1010,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1015,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -579,6 +724,11 @@
   "timestamp" : 1035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1040,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1050,
@@ -594,6 +744,11 @@
   "user" : "bob35",
   "timestamp" : 1060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1065,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -611,6 +766,11 @@
   "timestamp" : 1085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1090,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1100,
@@ -626,6 +786,11 @@
   "user" : "bob35",
   "timestamp" : 1110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1115,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -643,6 +808,11 @@
   "timestamp" : 1135,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1140,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1150,
@@ -658,6 +828,11 @@
   "user" : "bob35",
   "timestamp" : 1160,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1165,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -675,6 +850,11 @@
   "timestamp" : 1185,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1190,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1200,
@@ -690,6 +870,11 @@
   "user" : "bob35",
   "timestamp" : 1210,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1215,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -707,6 +892,11 @@
   "timestamp" : 1235,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1240,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1250,
@@ -722,6 +912,11 @@
   "user" : "bob35",
   "timestamp" : 1260,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1265,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -739,6 +934,11 @@
   "timestamp" : 1285,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 1290,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1300,
@@ -754,6 +954,11 @@
   "user" : "carol19",
   "timestamp" : 1310,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1315,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -771,6 +976,11 @@
   "timestamp" : 1335,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1340,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1350,
@@ -786,6 +996,11 @@
   "user" : "carol19",
   "timestamp" : 1360,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1365,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -803,6 +1018,11 @@
   "timestamp" : 1385,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1390,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1400,
@@ -818,6 +1038,11 @@
   "user" : "carol19",
   "timestamp" : 1410,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1415,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -835,6 +1060,11 @@
   "timestamp" : 1435,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1440,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1450,
@@ -850,6 +1080,11 @@
   "user" : "carol19",
   "timestamp" : 1460,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1465,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -867,6 +1102,11 @@
   "timestamp" : 1485,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1490,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1500,
@@ -882,6 +1122,11 @@
   "user" : "carol19",
   "timestamp" : 1510,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1515,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -899,6 +1144,11 @@
   "timestamp" : 1535,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1540,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1550,
@@ -914,6 +1164,11 @@
   "user" : "carol19",
   "timestamp" : 1560,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1565,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -931,6 +1186,11 @@
   "timestamp" : 1585,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1590,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1600,
@@ -946,6 +1206,11 @@
   "user" : "carol19",
   "timestamp" : 1610,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1615,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -963,6 +1228,11 @@
   "timestamp" : 1635,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1640,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1650,
@@ -978,6 +1248,11 @@
   "user" : "carol19",
   "timestamp" : 1660,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1665,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -995,6 +1270,11 @@
   "timestamp" : 1685,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1690,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1700,
@@ -1010,6 +1290,11 @@
   "user" : "carol19",
   "timestamp" : 1710,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1715,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1027,6 +1312,11 @@
   "timestamp" : 1735,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1740,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1750,
@@ -1042,6 +1332,11 @@
   "user" : "carol19",
   "timestamp" : 1760,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1765,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -1059,6 +1354,11 @@
   "timestamp" : 1785,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 1790,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1800,
@@ -1073,7 +1373,12 @@
   "command" : "load",
   "user" : "david27",
   "timestamp" : 1810,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1815,
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1091,6 +1396,11 @@
   "timestamp" : 1835,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1840,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1850,
@@ -1106,6 +1416,11 @@
   "user" : "david27",
   "timestamp" : 1860,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1865,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1123,6 +1438,11 @@
   "timestamp" : 1885,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1890,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1900,
@@ -1138,6 +1458,11 @@
   "user" : "david27",
   "timestamp" : 1910,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1915,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1155,6 +1480,11 @@
   "timestamp" : 1935,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1940,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1950,
@@ -1170,6 +1500,11 @@
   "user" : "david27",
   "timestamp" : 1960,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1965,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1187,6 +1522,11 @@
   "timestamp" : 1985,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 1990,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2000,
@@ -1202,6 +1542,11 @@
   "user" : "david27",
   "timestamp" : 2010,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2015,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1219,6 +1564,11 @@
   "timestamp" : 2035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2040,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2050,
@@ -1234,6 +1584,11 @@
   "user" : "david27",
   "timestamp" : 2060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2065,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1251,6 +1606,11 @@
   "timestamp" : 2085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2090,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2100,
@@ -1266,6 +1626,11 @@
   "user" : "david27",
   "timestamp" : 2110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2115,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1283,6 +1648,11 @@
   "timestamp" : 2135,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2140,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2150,
@@ -1298,6 +1668,11 @@
   "user" : "david27",
   "timestamp" : 2160,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2165,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1315,6 +1690,11 @@
   "timestamp" : 2185,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2190,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2200,
@@ -1330,6 +1710,11 @@
   "user" : "david27",
   "timestamp" : 2210,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2215,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1347,6 +1732,11 @@
   "timestamp" : 2235,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2240,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2250,
@@ -1362,6 +1752,11 @@
   "user" : "david27",
   "timestamp" : 2260,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2265,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -1379,6 +1774,11 @@
   "timestamp" : 2285,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "david27",
+  "timestamp" : 2290,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2300,
@@ -1394,6 +1794,11 @@
   "user" : "emily30",
   "timestamp" : 2310,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2315,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1411,6 +1816,11 @@
   "timestamp" : 2335,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2340,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2350,
@@ -1426,6 +1836,11 @@
   "user" : "emily30",
   "timestamp" : 2360,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2365,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1443,6 +1858,11 @@
   "timestamp" : 2385,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2390,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2400,
@@ -1458,6 +1878,11 @@
   "user" : "emily30",
   "timestamp" : 2410,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2415,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1475,6 +1900,11 @@
   "timestamp" : 2435,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2440,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2450,
@@ -1490,6 +1920,11 @@
   "user" : "emily30",
   "timestamp" : 2460,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2465,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1507,6 +1942,11 @@
   "timestamp" : 2485,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2490,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2500,
@@ -1522,6 +1962,11 @@
   "user" : "emily30",
   "timestamp" : 2510,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2515,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1539,6 +1984,11 @@
   "timestamp" : 2535,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2540,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2550,
@@ -1554,6 +2004,11 @@
   "user" : "emily30",
   "timestamp" : 2560,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2565,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1571,6 +2026,11 @@
   "timestamp" : 2585,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2590,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2600,
@@ -1586,6 +2046,11 @@
   "user" : "emily30",
   "timestamp" : 2610,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2615,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1603,6 +2068,11 @@
   "timestamp" : 2635,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2640,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2650,
@@ -1618,6 +2088,11 @@
   "user" : "emily30",
   "timestamp" : 2660,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2665,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1635,6 +2110,11 @@
   "timestamp" : 2685,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2690,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2700,
@@ -1650,6 +2130,11 @@
   "user" : "emily30",
   "timestamp" : 2710,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2715,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1667,6 +2152,11 @@
   "timestamp" : 2735,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2740,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2750,
@@ -1682,6 +2172,11 @@
   "user" : "emily30",
   "timestamp" : 2760,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2765,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -1699,6 +2194,11 @@
   "timestamp" : 2785,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 2790,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2800,
@@ -1714,6 +2214,11 @@
   "user" : "frank21",
   "timestamp" : 2810,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2815,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1731,6 +2236,11 @@
   "timestamp" : 2835,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2840,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2850,
@@ -1746,6 +2256,11 @@
   "user" : "frank21",
   "timestamp" : 2860,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2865,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1763,6 +2278,11 @@
   "timestamp" : 2885,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2890,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2900,
@@ -1778,6 +2298,11 @@
   "user" : "frank21",
   "timestamp" : 2910,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2915,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1795,6 +2320,11 @@
   "timestamp" : 2935,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2940,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2950,
@@ -1810,6 +2340,11 @@
   "user" : "frank21",
   "timestamp" : 2960,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2965,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1827,6 +2362,11 @@
   "timestamp" : 2985,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 2990,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3000,
@@ -1842,6 +2382,11 @@
   "user" : "frank21",
   "timestamp" : 3010,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3015,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1859,6 +2404,11 @@
   "timestamp" : 3035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3040,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3050,
@@ -1874,6 +2424,11 @@
   "user" : "frank21",
   "timestamp" : 3060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3065,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1891,6 +2446,11 @@
   "timestamp" : 3085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3090,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3100,
@@ -1906,6 +2466,11 @@
   "user" : "frank21",
   "timestamp" : 3110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3115,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1923,6 +2488,11 @@
   "timestamp" : 3135,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3140,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3150,
@@ -1938,6 +2508,11 @@
   "user" : "frank21",
   "timestamp" : 3160,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3165,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1955,6 +2530,11 @@
   "timestamp" : 3185,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3190,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3200,
@@ -1970,6 +2550,11 @@
   "user" : "frank21",
   "timestamp" : 3210,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3215,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -1987,6 +2572,11 @@
   "timestamp" : 3235,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3250,
@@ -2002,6 +2592,11 @@
   "user" : "frank21",
   "timestamp" : 3260,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3265,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -2019,6 +2614,11 @@
   "timestamp" : 3285,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "frank21",
+  "timestamp" : 3290,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3300,
@@ -2033,7 +2633,12 @@
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 3310,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3315,
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2049,7 +2654,12 @@
   "command" : "load",
   "user" : "grace25",
   "timestamp" : 3335,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3340,
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2067,6 +2677,11 @@
   "timestamp" : 3360,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3365,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3375,
@@ -2082,6 +2697,11 @@
   "user" : "grace25",
   "timestamp" : 3385,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3390,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2099,6 +2719,11 @@
   "timestamp" : 3410,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3415,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3425,
@@ -2114,6 +2739,11 @@
   "user" : "grace25",
   "timestamp" : 3435,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3440,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2131,6 +2761,11 @@
   "timestamp" : 3460,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3465,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3475,
@@ -2146,6 +2781,11 @@
   "user" : "grace25",
   "timestamp" : 3485,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3490,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2163,6 +2803,11 @@
   "timestamp" : 3510,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3515,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3525,
@@ -2178,6 +2823,11 @@
   "user" : "grace25",
   "timestamp" : 3535,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3540,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2195,6 +2845,11 @@
   "timestamp" : 3560,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3565,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3575,
@@ -2210,6 +2865,11 @@
   "user" : "grace25",
   "timestamp" : 3585,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3590,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2227,6 +2887,11 @@
   "timestamp" : 3610,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3615,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3625,
@@ -2242,6 +2907,11 @@
   "user" : "grace25",
   "timestamp" : 3635,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3640,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2259,6 +2929,11 @@
   "timestamp" : 3660,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3665,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3675,
@@ -2274,6 +2949,11 @@
   "user" : "grace25",
   "timestamp" : 3685,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3690,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2291,6 +2971,11 @@
   "timestamp" : 3710,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3715,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3725,
@@ -2306,6 +2991,11 @@
   "user" : "grace25",
   "timestamp" : 3735,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3740,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -2323,6 +3013,11 @@
   "timestamp" : 3760,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3765,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3775,
@@ -2339,6 +3034,11 @@
   "timestamp" : 3785,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "grace25",
+  "timestamp" : 3790,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3800,
@@ -2353,7 +3053,12 @@
   "command" : "load",
   "user" : "henry26",
   "timestamp" : 3810,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3815,
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2371,6 +3076,11 @@
   "timestamp" : 3835,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3840,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3850,
@@ -2386,6 +3096,11 @@
   "user" : "henry26",
   "timestamp" : 3860,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3865,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2403,6 +3118,11 @@
   "timestamp" : 3885,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3890,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3900,
@@ -2418,6 +3138,11 @@
   "user" : "henry26",
   "timestamp" : 3910,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3915,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2435,6 +3160,11 @@
   "timestamp" : 3935,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3940,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3950,
@@ -2450,6 +3180,11 @@
   "user" : "henry26",
   "timestamp" : 3960,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3965,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2467,6 +3202,11 @@
   "timestamp" : 3985,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 3990,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4000,
@@ -2482,6 +3222,11 @@
   "user" : "henry26",
   "timestamp" : 4010,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4015,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2499,6 +3244,11 @@
   "timestamp" : 4035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4040,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4050,
@@ -2514,6 +3264,11 @@
   "user" : "henry26",
   "timestamp" : 4060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4065,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2531,6 +3286,11 @@
   "timestamp" : 4085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4090,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4100,
@@ -2546,6 +3306,11 @@
   "user" : "henry26",
   "timestamp" : 4110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4115,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2563,6 +3328,11 @@
   "timestamp" : 4135,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4140,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4150,
@@ -2578,6 +3348,11 @@
   "user" : "henry26",
   "timestamp" : 4160,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4165,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2595,6 +3370,11 @@
   "timestamp" : 4185,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4190,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4200,
@@ -2610,6 +3390,11 @@
   "user" : "henry26",
   "timestamp" : 4210,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4215,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2627,6 +3412,11 @@
   "timestamp" : 4235,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4240,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4250,
@@ -2642,6 +3432,11 @@
   "user" : "henry26",
   "timestamp" : 4260,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4265,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2659,6 +3454,11 @@
   "timestamp" : 4285,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "henry26",
+  "timestamp" : 4290,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4300,
@@ -2673,7 +3473,12 @@
   "command" : "load",
   "user" : "irene33",
   "timestamp" : 4310,
-  "message" : "Playback loaded successfully."
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4315,
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2691,6 +3496,11 @@
   "timestamp" : 4335,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4340,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4350,
@@ -2706,6 +3516,11 @@
   "user" : "irene33",
   "timestamp" : 4360,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4365,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2723,6 +3538,11 @@
   "timestamp" : 4385,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4390,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4400,
@@ -2738,6 +3558,11 @@
   "user" : "irene33",
   "timestamp" : 4410,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4415,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2755,6 +3580,11 @@
   "timestamp" : 4435,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4440,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4450,
@@ -2770,6 +3600,11 @@
   "user" : "irene33",
   "timestamp" : 4460,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4465,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2787,6 +3622,11 @@
   "timestamp" : 4485,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4490,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4500,
@@ -2802,6 +3642,11 @@
   "user" : "irene33",
   "timestamp" : 4510,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4515,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2819,6 +3664,11 @@
   "timestamp" : 4535,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4540,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4550,
@@ -2834,6 +3684,11 @@
   "user" : "irene33",
   "timestamp" : 4560,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4565,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2851,6 +3706,11 @@
   "timestamp" : 4585,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4590,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4600,
@@ -2866,6 +3726,11 @@
   "user" : "irene33",
   "timestamp" : 4610,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4615,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2883,6 +3748,11 @@
   "timestamp" : 4635,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4640,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4650,
@@ -2898,6 +3768,11 @@
   "user" : "irene33",
   "timestamp" : 4660,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4665,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2915,6 +3790,11 @@
   "timestamp" : 4685,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4690,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4700,
@@ -2930,6 +3810,11 @@
   "user" : "irene33",
   "timestamp" : 4710,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4715,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2947,6 +3832,11 @@
   "timestamp" : 4735,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4740,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4750,
@@ -2962,6 +3852,11 @@
   "user" : "irene33",
   "timestamp" : 4760,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4765,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -2979,6 +3874,11 @@
   "timestamp" : 4785,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "irene33",
+  "timestamp" : 4790,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4800,
@@ -2994,6 +3894,11 @@
   "user" : "jack29",
   "timestamp" : 4810,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4815,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3011,6 +3916,11 @@
   "timestamp" : 4835,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4840,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4850,
@@ -3026,6 +3936,11 @@
   "user" : "jack29",
   "timestamp" : 4860,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4865,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3043,6 +3958,11 @@
   "timestamp" : 4885,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4890,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4900,
@@ -3058,6 +3978,11 @@
   "user" : "jack29",
   "timestamp" : 4910,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4915,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3075,6 +4000,11 @@
   "timestamp" : 4935,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4940,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4950,
@@ -3090,6 +4020,11 @@
   "user" : "jack29",
   "timestamp" : 4960,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4965,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3107,6 +4042,11 @@
   "timestamp" : 4985,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 4990,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5000,
@@ -3122,6 +4062,11 @@
   "user" : "jack29",
   "timestamp" : 5010,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5015,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3139,6 +4084,11 @@
   "timestamp" : 5035,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5040,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5050,
@@ -3154,6 +4104,11 @@
   "user" : "jack29",
   "timestamp" : 5060,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5065,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3171,6 +4126,11 @@
   "timestamp" : 5085,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5090,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5100,
@@ -3186,6 +4146,11 @@
   "user" : "jack29",
   "timestamp" : 5110,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5115,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3203,6 +4168,11 @@
   "timestamp" : 5135,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5140,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5150,
@@ -3218,6 +4188,11 @@
   "user" : "jack29",
   "timestamp" : 5160,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5165,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3235,6 +4210,11 @@
   "timestamp" : 5185,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5190,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5200,
@@ -3250,6 +4230,11 @@
   "user" : "jack29",
   "timestamp" : 5210,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5215,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -3267,6 +4252,11 @@
   "timestamp" : 5235,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5250,
@@ -3283,6 +4273,11 @@
   "timestamp" : 5260,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5265,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5275,
@@ -3298,6 +4293,11 @@
   "user" : "jack29",
   "timestamp" : 5285,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "jack29",
+  "timestamp" : 5290,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "select",
   "user" : "alice22",

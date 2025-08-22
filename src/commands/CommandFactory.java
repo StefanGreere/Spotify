@@ -1,5 +1,7 @@
 package commands;
 
+import fileio.input.CommandInput;
+
 public interface CommandFactory {
     /**
      * Creates a Command object based on the provided CommandInput.
